@@ -1,0 +1,69 @@
+{
+  "properties": [
+    {
+      "name": "conductor.cassandra.hostAddress",
+      "type": "java.lang.String",
+      "description": "The host address for the cassandra database instance."
+    },
+    {
+      "name": "conductor.cassandra.port",
+      "type": "java.lang.Integer",
+      "description": "The port to be used to connect to the cassandra database instance."
+    },
+    {
+      "name": "conductor.cassandra.cluster",
+      "type": "java.lang.String",
+      "description": "The name of the cassandra cluster."
+    },
+    {
+      "name": "conductor.cassandra.keyspace",
+      "type": "java.lang.String",
+      "description": "The keyspace to be used in the cassandra database."
+    },
+    {
+      "name": "conductor.cassandra.shardSize",
+      "type": "java.lang.Integer",
+      "description": "The number of tasks to be stored in a single partition."
+    },
+    {
+      "name": "conductor.cassandra.replicationStrategy",
+      "type": "java.lang.String",
+      "description": "The replication strategy with which to configure the persistence layer."
+    },
+    {
+      "name": "conductor.cassandra.replicationFactorKey",
+      "type": "java.lang.String",
+      "description": "The key to be used while configuring the replication factor."
+    },
+    {
+      "name": "conductor.cassandra.replicationFactorValue",
+      "type": "java.lang.Integer",
+      "description": "The replication factor value with which the keyspace is configured."
+    },
+    {
+      "name": "conductor.cassandra.readConsistencyLevel",
+      "type": "java.lang.String",
+      "description": "The consistency level to be used for read operations."
+    },
+    {
+      "name": "conductor.cassandra.writeConsistencyLevel",
+      "type": "java.lang.String",
+      "description": "The consistency level to be used for write operations."
+    },
+    {
+      "name": "conductor.cassandra.taskDefCacheRefreshTimeSecs",
+      "type": "java.lang.Integer",
+      "description": "The time in seconds to be used after which the task definitions cache will be refreshed."
+    },
+    {
+      "name": "conductor.cassandra.eventHandlerCacheRefreshTimeSecs",
+      "type": "java.lang.Integer",
+      "description": "The time in seconds to be used after which the event handler cache will be refreshed."
+    },
+    {
+      "name": "conductor.cassandra.eventExecutionPersistenceTTLSecs",
+      "type": "java.lang.Integer",
+      "description": "The time to live in seconds for which the event execution will be persisted."
+    }
+  ]
+}

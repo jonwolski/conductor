@@ -1,0 +1,49 @@
+{
+  "properties": [
+    {
+      "name": "conductor.external.payload.storage.azureblob.connectionString",
+      "type": "java.lang.String",
+      "description": "The connection string to be used to connect to AZURE BLOB storage."
+    },
+    {
+      "name": "conductor.external.payload.storage.azureblob.containerName",
+      "type": "java.lang.String",
+      "description": "The name of the container where the payloads will be stored."
+    },
+    {
+      "name": "conductor.external.payload.storage.azureblob.endpoint",
+      "type": "java.lang.String",
+      "description": "The endpoint to be used to connect to AZURE BLOB storage."
+    },
+    {
+      "name": "conductor.external.payload.storage.azureblob.sasToken",
+      "type": "java.lang.String",
+      "description": "The sas token to be used for authenticating requests."
+    },
+    {
+      "name": "conductor.external.payload.storage.azureblob.signedUrlExpirationSeconds",
+      "type": "java.lang.Integer",
+      "description": "The time for which the shared access signature is valid."
+    },
+    {
+      "name": "conductor.external.payload.storage.azureblob.workflowInputPath",
+      "type": "java.lang.String",
+      "description": "The path at which the workflow inputs will be stored."
+    },
+    {
+      "name": "conductor.external.payload.storage.azureblob.workflowOutputPath",
+      "type": "java.lang.String",
+      "description": "The path at which the workflow outputs will be stored."
+    },
+    {
+      "name": "conductor.external.payload.storage.azureblob.taskInputPath",
+      "type": "java.lang.String",
+      "description": "The path at which the task inputs will be stored."
+    },
+    {
+      "name": "conductor.external.payload.storage.azureblob.taskOutputPath",
+      "type": "java.lang.String",
+      "description": "The path at which the task outputs will be stored."
+    }
+  ]
+}
